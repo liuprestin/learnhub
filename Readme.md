@@ -1,4 +1,6 @@
+Testing notes:
 
+- be aware of where the root directory is for starting the test server
 
 Legalize:
 

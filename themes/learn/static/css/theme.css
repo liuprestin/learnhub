@@ -3,6 +3,11 @@
 /* Tags */
 @import "tags.css";
 
+/* remove ul dot*/
+ul {
+    list-style-type: none;
+}
+
 #top-github-link, #body #breadcrumbs {
     position: relative;
     top: 50%;

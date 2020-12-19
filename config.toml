@@ -1,4 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "http://127.0.0.1:5500"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "learnsite"
 theme = "learn"
+
+ignoreErrors = ["error-remote-getjson"] #testing purposes only
+
