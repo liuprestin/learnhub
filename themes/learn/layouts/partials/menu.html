@@ -16,6 +16,9 @@
         <li>
             <a class="padding" href='{{ (cond (and (ne .Site.Params.landingPageURL nil) (.Site.IsMultiLingual)) .Site.Params.landingPageURL "/") }}'>{{ safeHTML (cond (ne .Site.Params.landingPageName nil) .Site.Params.landingPageName "<i class='fas fa-home'></i> Home") }}</a>
         </li>
+		<li>
+			<a class="padding" href='{{ "tags" | absURL }}'> <i class='fas fa-tags'></i> Tags </a>
+		</li>
       </ul>
     </section>
   {{end}}

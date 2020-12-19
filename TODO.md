@@ -1,0 +1,3 @@
+test: goisforlovers.md (in /content)
+
+There is a image input that isn't working for the page - it should be something that sits in the header...
