@@ -1,4 +1,4 @@
-baseURL = "http://127.0.0.1:5500"
+baseURL = "lexbit.netlify.app"
 languageCode = "en-us"
 title = "learnsite"
 theme = "learn"
