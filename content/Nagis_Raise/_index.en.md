@@ -3,6 +3,7 @@ title: Prologue Nagi's raise
 weight: 5
 pre: "<b>null. </b>"
 chapter: true
+image : "fast-lane.jpg"
 ---
 
 ### Prologue

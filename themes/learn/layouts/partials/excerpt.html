@@ -7,8 +7,10 @@
 {{- $image := $scratch.Get "image" }}
 {{- $bg := (path.Join "images" $image) }} 
 <li class = 'post_item'>
-  <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL $bg }});'>
-  </a>
+  <!-- IMG styling is bugged 
+  <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}'>
+    <img src='{{ absURL $bg }}' width="100" height="100"/>
+  </a> -->
   <div class = 'excerpt'>
     <div class = 'excerpt_meta'>
     {{- with .Params.tags -}}
